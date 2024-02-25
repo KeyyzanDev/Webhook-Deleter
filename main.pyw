@@ -8,16 +8,19 @@ try:
     from PIL import Image
 except:
     os.system('py -m pip install pillow')
+    os.system('pip3 install pillow')
     from PIL import Image
 try:
     import requests
 except:
     os.system("py -m pip install requests")
+    os.system("pip3 install requests")
     import requests
 try:
     import customtkinter as ctk
 except:
     os.system("py -m pip install customtkinter")
+    os.system("pip3 install customtkinter")
     import customtkinter as ctk
 
 # window
